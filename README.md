@@ -13,14 +13,14 @@ Open the command palette (`Ctrl+Shift+P`) and select `Create Markdown Blog File`
 A ``page name.md`` will be created in the workspace folder, containing the following information.
 
 ```md
---- ``md_name.md
+---
 title:
-author: .
-date:: date_at: published_at: published_at: published_at: published_at
+author:
+date:
   published_at:
   updated_at:
---- ````author: author: date: published_at: updated_at: ...
-````
+---
+```
 
 After this, you can write your blog as you like!
 
@@ -34,12 +34,10 @@ author
 date
   published_at
   updated_at
-````
+```
 
 If indentation is required, enter two spaces.
 
 ## CHANGELOG
 
 Check [CHANGELOG](https://github.com/isirmt/markdown-blog-base/blob/master/CHANGELOG.md).
-
-Translated with DeepL.com (free version)

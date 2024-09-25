@@ -1,15 +1,26 @@
 {
   "name": "markdown-blog-base",
-  "displayName": "markdown-blog-base",
+  "displayName": "Markdown Blog File Generator",
   "publisher": "isirmt",
   "description": "Generate File For Markdown Blog",
+  "icon": "images/icon.png",
   "version": "0.0.1",
+  "preview": true,
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
     "Other"
   ],
+  "bugs": {
+    "url": "https://github.com/isirmt/markdown-blog-base/issues"
+  },
+  "homepage": "https://github.com/isirmt/markdown-blog-base/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isirmt/markdown-blog-base.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
   "activationEvents": [
     "markdown-blog-base.createBlog"
   ],
