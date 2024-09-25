@@ -2,7 +2,7 @@
 
 - Customizable header
 
-[Japanese](./README-jp.md)
+[Japanese](https://github.com/isirmt/markdown-blog-base/blob/master/README-jp.md)
 
 ## Usage
 
@@ -40,6 +40,6 @@ If indentation is required, enter two spaces.
 
 ## CHANGELOG
 
-Check [CHANGELOG](. /CHANGELOG.md).
+Check [CHANGELOG](https://github.com/isirmt/markdown-blog-base/blob/master/CHANGELOG.md).
 
 Translated with DeepL.com (free version)
