@@ -1,71 +1,45 @@
 # markdown-blog-base README
 
-This is the README for your extension "markdown-blog-base". After writing up a brief description, we recommend including the following sections.
+- Customizable header
 
-## Features
+[Japanese](./README-jp.md)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Usage
 
-For example if there is an image subfolder under your extension project workspace:
+When you create a Markdown blog, a YAML header is generated at the same time.
 
-\!\[feature X\]\(images/feature-x.png\)
+Open the command palette (`Ctrl+Shift+P`) and select `Create Markdown Blog File`. A field will appear asking for the name of the page (slug) to be created.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+A ``page name.md`` will be created in the workspace folder, containing the following information.
 
-## Requirements
+```md
+--- ``md_name.md
+title:
+author: .
+date:: date_at: published_at: published_at: published_at: published_at
+  published_at:
+  updated_at:
+--- ````author: author: date: published_at: updated_at: ...
+````
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+After this, you can write your blog as you like!
 
-## Extension Settings
+### How to create an optional header
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Create `markdown-blog-config.txt` in the root of your workspace folder. If you want to generate it as shown in the sample, you can do so by writing the following.
 
-For example:
+```txt
+title
+author
+date
+  published_at
+  updated_at
+````
 
-This extension contributes the following settings:
+If indentation is required, enter two spaces.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## CHANGELOG
 
-## Known Issues
+Check [CHANGELOG](. /CHANGELOG.md).
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Translated with DeepL.com (free version)

@@ -1,6 +1,7 @@
 {
   "name": "markdown-blog-base",
   "displayName": "markdown-blog-base",
+  "publisher": "isirmt",
   "description": "Generate File For Markdown Blog",
   "version": "0.0.1",
   "engines": {

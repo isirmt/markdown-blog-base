@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "markdown-blog-base" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- 0.0.1: initial Release
+  - Generate files from text fields
+  - Define config file in `markdown-blog-config.txt
