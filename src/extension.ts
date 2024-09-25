@@ -8,12 +8,7 @@ const configurationFileName = "markdown-blog-config.txt";
 const defaultNesting: (string | (string | string[])[])[] = ["title", "author", "date", ["published_at", "updated_at"]];
 
 export function activate(context: vscode.ExtensionContext) {
-
-	console.log('Congratulations, your extension "markdown-blog-base" is now active!');
-
 	context.subscriptions.push(vscode.commands.registerCommand('markdown-blog-base.createBlog', async () => {
-
-		console.log(vscode.workspace.workspaceFolders);
 
 		if (vscode.workspace.workspaceFolders && vscode.workspace.workspaceFolders.length > 0) {
 			let nesting = defaultNesting;
